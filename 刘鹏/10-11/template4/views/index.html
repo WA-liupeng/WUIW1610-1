@@ -1,0 +1,17 @@
+    <% include header.html%>
+    <!--123-->
+    <h1><%=h1%></h1>
+    <p><%=message%></p>
+    <h1><%+message%></h1>
+    <h1><%-message%></h1>
+     <%# 123%>
+    <% if(key){ %>
+        <div><%=key%></div>
+    <% }%>
+
+    <% for(var i=0;i<xunhuan.length;i++){%>
+        <div><%=xunhuan[i]%></div>
+    <% }%>
+
+    <% include footer.html%>
+
